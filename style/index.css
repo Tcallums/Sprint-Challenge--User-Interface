@@ -265,7 +265,15 @@ margin-right: 20%;
       align-items: center;
       width: 100%;
    }
-
+   .middle-content .boxes .box1, .box2, .box3, .box4, 
+   .box5,.box6 , .box7, .box8, .box9, .box10  {
+       width: 50%;
+       height: 150px;
+       margin: 10px 2.5%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
    /*tablet view*/
 @media(max-width: 800px){
     header nav {
