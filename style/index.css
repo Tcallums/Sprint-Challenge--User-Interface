@@ -213,6 +213,21 @@ margin-right: 20%;
     width: 100%;
     justify-content: center;
 }
+/*media queries*/
+@media(max-width: 515px){
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+     nav a {
+        color: red;
+        font-family: Impact;
+    }
+    h2 {
+        color: red;
+    }
+}
+
+
 
 /*mobile view*/
 @media(max-width: 500px){
