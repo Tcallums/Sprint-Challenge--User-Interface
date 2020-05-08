@@ -233,13 +233,16 @@ margin-right: 20%;
 @media(max-width: 500px){
     header nav{
       display: flex;
-      flex-direction: column;
       align-items: center;
-      margin: 7%;
+      
     }
     .links {
     display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 7%;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
     }
