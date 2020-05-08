@@ -242,8 +242,12 @@ margin-right: 20%;
   }
   section {
     flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    padding: 0;
     
+  }
+  .top-content {
+      align-items: center;
   }
   div {
     flex-direction: column;
@@ -253,6 +257,7 @@ margin-right: 20%;
   }
   .boxes {
     align-items: center;
+    width: 100%;
   }
    footer nav {
     display: flex;
@@ -269,7 +274,7 @@ margin-right: 20%;
     }
     section {
         flex-direction: column;
-        margin-left: 30%;
+        margin-left: 4%;
       }
       div {
         flex-direction: column;
