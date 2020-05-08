@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git
+# Sprint Challenge: User Interface and Git#
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
