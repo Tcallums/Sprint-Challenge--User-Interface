@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+//* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -81,7 +81,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 2% 1%;
     padding-bottom: 20px;  
 }
 
@@ -101,17 +101,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, 
+.box5,.box6 , .box7, .box8, .box9, .box10  {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +171,125 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Header*/
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 2%; 
+}
+header nav {
+    display: flex;
+}
+.logo {
+    float:left
+    
+}
+.links {
+display: flex;
+justify-content: space-evenly;
+padding: 2%;
+margin-right: 20%;
+}
+.hidden {
+    border:0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect( 1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+ }
+.logo {
+    display: flex;
+    margin: 2%;
+    padding
+}
+.jumbo {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+}
+
+/*tablet view*/
+@media(min-width: 800px){
+    header nav {
+      display: flex;
+      align-items: center;
+    }
+  .top-content {
+    display: flex;
+  }
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+  }
+  .boxes {
+    columns: 100px 2;
+  }
+  }
+
+/*mobile view*/
+@media(max-width: 500px){
+    header nav {
+      display: flex;
+      align-items: center;
+      
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+  .links {
+    width:100%;
+  }
+  
+  img {
+    display: flex;
+    width: 100%;
+  }
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+  }
+  .top-content {
+    align-items: center;
+  }
+  div {
+    flex-direction: column;
+  }
+  .middle-content h2 {
+    justify-content: center;
+  }
+  .boxes {
+   align-items: center;
+    width: 100%;
+    padding: 10%;
+  }
+  .middle-content .boxes .box1, .box2, .box3, .box4, 
+.box5,.box6 , .box7, .box8, .box9, .box10  {
+    width: 50%;
+    height: 150px;
+    margin: 10px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   footer nav {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
 }
