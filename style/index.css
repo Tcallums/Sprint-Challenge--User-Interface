@@ -179,15 +179,17 @@ nav a {
     margin: 2%; 
 }
 header nav {
-    display:flex;
+    display: flex;
 }
 .logo {
     float:left
+    
 }
 .links {
-display:flex;
+display: flex;
 justify-content: space-evenly;
 padding: 2%;
+margin-right: 20%;
 }
 .hidden {
     border:0;
